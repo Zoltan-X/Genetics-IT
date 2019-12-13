@@ -15,15 +15,15 @@ in form of polymorphic recursions.
 Genes in Form of DNA or RNA only have four permutations.
 There are four aminos called:
 
-* (A) Adenosin
-* (T) Thymin
 * (C) Cytosin
 * (G) Guanin
+* (A) Adenosin
+* (T) Thymin &lt;DNA&gt; or (U) Uracil &lt;RNA&gt;
 
 Given pairings are therefore only
 
-* AT or TA
 * CG or GC
+* A(T/U) or (T/U)A
 
 So we have only two pairings and  
 four permutations for coding in Gentics IT
@@ -112,6 +112,35 @@ This leads to a set of 2x2 Operations.
   # B  =>  Comparator
   Definition CompareGreator(A, B)
     CompareLower(B, A)
+```
+
+
+```Genetics-IT
+  # Recursice definition of a summation process with 
+  # automatic abort of recursion if the processing flow reached its Limit.
+  # 
+  # A  =>  Summand
+  # B  =>  Summand
+  Definition Sum(A, B)
+    if CompareGreater(B,0)
+      Increment(A)
+      Decrement(B)
+      Sum(A, B)
+    A
+```
+
+```Genetics-IT
+  # Recursice definition of a subtraction process with 
+  # automatic abort of recursion if the processing flow reached its Limit.
+  # 
+  # A  =>  Minuend
+  # B  =>  Subtrahend
+  Definition Sum(A, B)
+    if CompareGreater(B,0)
+      Decrement(A)
+      Decrement(B)
+      Sum(A, B)
+    A
 ```
 
 
