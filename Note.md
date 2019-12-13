@@ -23,13 +23,13 @@ There are four aminos called:
 Given pairings are therefore only
 
 * CG or GC
-* AT or UA
+* TA or AU
 
 So we have only two pairings and  
 four permutations for coding in Gentics IT
 
 So in respect to Brainfuck,  
-this an even more reduced esoteric level.
+this an even more reduced or abstract esoteric level.
 
 ### Defnition of a minimum for information processing
 
@@ -67,8 +67,6 @@ This leads to the four possibly coding sets:
   * GC (Spin-R)
 * AU (Consume or Get)
 * TA (Place or Put)
-
-
 
 ### Minimum Information processing Examples with Conditions and Flips
 
@@ -163,14 +161,40 @@ This leads to the four possibly coding sets:
       Sum(A, B)
     A
 ```
+### Considerations about Genetics with DNA and RNA
 
+#### Obsolete Conditional Branching
 
+So far I postulated that the equal camparison branching is obsolete and  
+as next chapter that is about to explain why I think so.
+ 
+If we would do compare branchings in genetics,  
+there would be a desirable need to cut of RNAs  
+if there is only a partially matching.
+This means that at some point,  
+we would not generate fitting Genes  
+as they would be conditionally broken.
+
+So we should consider  
+that only fitting structures  
+(Genetic Sequences)  
+will workout right.
+
+This means that conditional branchings and  
+therefore comparings are obsolete.
+
+#### Out pointings
+
+As further suggestions are not the part of the Genetics IT and  
+could be read at: 
+
+* [Gene wiki](https://en.wikipedia.org/wiki/Gene)
+* [DNA wiki](https://en.wikipedia.org/wiki/DNA)
+* [RNA wiki](https://en.wikipedia.org/wiki/RNA)
 
 ### Addendum
 
-AT or TA Spin L or R  
-CG or GC Spin L or R  
+This Coding behaviour here has to be treated as  
 
-Flip 1 or 0 = Consume <=> Place  
-
-On DNA or RNA compare mechanics have to be reconsidered.  
+* technically having Touring abillities
+* biological handling of decoding Genes
