@@ -8,7 +8,7 @@ Esoteric Programming Language about Genetic IT
 In nature of Life,  
 Genetics are the base code .  
 
-In allmost circumstances,  
+In nearby allmost circumstances,  
 the process of growing is detemined  
 in form of polymorphic recursions.
 
@@ -23,7 +23,7 @@ There are four aminos called:
 Given pairings are therefore only
 
 * CG or GC
-* A(T/U) or (T/U)A
+* AT or UA
 
 So we have only two pairings and  
 four permutations for coding in Gentics IT
@@ -36,18 +36,39 @@ this an even more reduced esoteric level.
 * Information or resource has to be adressed
   * Get | Consume and Put | Set | Copy | Duplicate | Place
 * Information has to be evaluated
-  * Compare Equal
+  * Compare A Equal B Branch
 * Information has to be altered
   * Flip Bit
 * Flow Directions for processing Information
   * Spin-L or Spin-R
   
-So we seem to have a minimum of 4 Codeing Elements.
-But, in Genetics we only have a base of two amino pairings,  
-if we constitute the flow direction (Spin) of processings.  
-Therefore the information Flip has to be considered as addressed information altering and    
+So we seem to have a minimum of 4 codeing elements.
+But in Genetics,  
+we only have a base of two amino pairings for DNA and RNA,  
+if we constitute the flow direction (Spin) of processings.
+
+Therefore the information Flip  
+has to be considered  
+as addressed information altering and    
 the Compare A Equal B Branching as obsolete.
-This leads to a set of 2x2 Operations.
+This leads to a set of 1 x 2 + 2 Operations.
+
+Further the definition of DNA and RNA,  
+with the differnces at  
+Thymin or Uracil pairing with Adenosin
+defines 2 singleton cases and  
+one flow direction ("Spin-L|R") double case for 
+Cytosin and Guanin permutation.
+
+This leads to the four possibly coding sets:
+
+* CG  <=> GC
+  * CG (Spin-L) 
+  * GC (Spin-R)
+* AU (Consume or Get)
+* TA (Place or Put)
+
+
 
 ### Minimum Information processing Examples with Conditions and Flips
 
