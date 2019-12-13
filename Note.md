@@ -71,7 +71,7 @@ This leads to a set of 2x2 Operations.
 ```
 
 ```Genetics-IT
-  # Recursice definition of an decrementation process with 
+  # Recursice definition of a decrementation process with 
   # automatic abort of recursion if the processing flow  reached its Limit.
   # 
   # Information   =>  Limited Set of Bits,  
@@ -88,6 +88,33 @@ This leads to a set of 2x2 Operations.
     Flip(Information(x))
     Decrement(Information(x), FlowDirection)
 ```
+
+```Genetics-IT
+  # Recursice definition of a compare Lower process with 
+  # automatic abort of recursion if the processing flow  reached its Limit.
+  # 
+  # A  =>  Comparand
+  # B  =>  Comparator
+  Definition CompareLower(A, B)
+    if B Equ 0
+      0
+    Decrement(B. L-Spin)
+    if A Equal B B
+      1
+    CompareLower(A,B)
+```
+
+```Genetics-IT
+  # Recursice definition of a compare Greater process with 
+  # automatic abort of recursion if the processing flow  reached its Limit.
+  # 
+  # A  =>  Comparand
+  # B  =>  Comparator
+  Definition CompareGreator(A, B)
+    CompareLower(B, A)
+```
+
+
 
 ### Addendum
 
