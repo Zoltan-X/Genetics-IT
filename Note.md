@@ -12,7 +12,8 @@ In nearby allmost all circumstances,
 the process of growing is detemined  
 in form of polymorphic recursions.
 
-Genes in Form of DNA or RNA only have four permutations.
+Genes in Form of DNA or RNA  
+only have four permutations.  
 There are four aminos called:
 
 * (C) Cytosin
@@ -33,18 +34,21 @@ this an even more reduced or abstract esoteric level.
 
 ### Defnition of a minimum for information processing
 
-* Information or resource has to be adressed
-  * &lt;Get | Consume&gt; and &lt;Put | Set | Copy | Duplicate | Place&gt;
-* Information has to be evaluated
-  * Compare A Equal B Branch
-* Information has to be altered
-  * Flip Bit
-* Flow Directions for processing Information
-  * Spin-L or Spin-R
++ Technical approach
+  * Information or resource has to be adressed
+    * &lt;Get | Consume&gt; and &lt;Put | Set | Copy | Duplicate | Place&gt;
+  * Information has to be evaluated
+    * Compare A Equal B Branch
+  * Information has to be altered
+    * Flip Bit
+  * Flow Directions for processing Information
+    * Spin-L or Spin-R
   
-So we seem to have a minimum of 4 codeing elements.
-But in Genetics,  
-we only have a base of two amino pairings for DNA and RNA,  
+So we seem to have a minimum  
+of 4 codeing elements.  
+But in genetics,  
+we only have a base  
+of two amino pairings for DNA and RNA,  
 if we constitute the flow direction (Spin) of processings.
 
 Therefore the information Flip  
@@ -168,8 +172,9 @@ is from an technical information aspect driven.
 
 #### Obsolete Conditional Branching
 
-So far I postulated that the equal camparison branching is obsolete and  
-this chapter is about to explain why I think so and  
+So far I postulated,  
+that the equal camparison branching is obsolete.    
+This chapter is about to explain why I think so and  
 will highlight some further more aspects of these cases treaty.
  
 If we would do compare branchings in genetics,  
@@ -230,6 +235,82 @@ could be used for esoterical coding definitions,
 as stated in tha past few Years,  
 for accumulating information in DNA or RNA.  
 
+#### The cells construction theorem
+
+An approach to construct cells  
+with 4 coding Elements,  
+seems to be very difficult.
+
+This is caused by the richness  
+of various cell types and  
+the richness of various cell interactions.
+
+Therefore we should reconsider,  
+how cell structures could be usefull defined and  
+builtup with only a set of 4 instructions.  
+
+First of all,  
+we can not determine various molecular structures,  
+with a set of only four instructions.  
+This has to be determined  
+by a vast set of interactions,  
+that are controllable  
+with a set of four instructive elements.  
+
+This means,  
+the cellular growth or building process  
+is dependent to outer circumstances,  
+like liquid bondings.  
+
+Therefore,  
+a set of four instructions  
+has to be a universal instructions set,  
+that would determine  
+how cells are going to be constructed.  
+
+This leads to the needs of  
+having a molecular reactive amino acid as base,  
+that would chain up reactions  
+to the desired type of cell.  
+
+Partial DNA sequences have to define RNA Sequences  
+that are going to construct partially dependent structures.
+
+This makes it very complexe to consider right,  
+because the handling of activated and inactivated gene Sequences,  
+are not fully discovered nor really understood.  
+
+The conception is about altering the process  
+of releasing genetic sequences  
+for reproduction of necesary elements  
+at the right moment and  
+a well formed RNA string.  
+
+So what kind of 4 instructions would we need therefore?
+
+1. We would need an sequence initiator and terminator instruction.  
+2. We would need something like an reproduction counter instruction,  
+   that would terminate an expansive cell building up operation.
+3. We would need a molcular bonding construction.
+4. We would need a spatially determined RNA String form,  
+   that would fit the cell building process,  
+   by sticking to itself at specific points.
+   
+The first topic is about to be something like Spin-L|R termination.
+
+The second and third topics should stick together,  
+as sequences are somehow of a count delimiting purpose.  
+So we would have a double option  
+for constructing molecular bindings.
+The third aspect determines a wider set of   
+cell build up bindings.
+
+The last topic determines a sticky bending,  
+that would influence the cell structure.
+
+Therefore,  
+the next chapter is about to point out to references.
+
 #### Out pointings
 
 As further suggestions are not the part of the Genetics IT,    
@@ -238,10 +319,11 @@ they could be read at:
 * [Gene wiki](https://en.wikipedia.org/wiki/Gene)
 * [DNA wiki](https://en.wikipedia.org/wiki/DNA)
 * [RNA wiki](https://en.wikipedia.org/wiki/RNA)
+* [Biomolecular structures wiki](https://en.wikipedia.org/wiki/Biomolecular_structure)
 
 ### Addendum
 
 This coding behaviour here has to be treated as  
 
 * technically having Touring abillities  
-* biological handling of decoding Genes  
+* inspired from biological handling of decoding Genes  
