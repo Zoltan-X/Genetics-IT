@@ -1,4 +1,5 @@
-# geneticit
+# Genetics-IT
+
 Esoteric Programming Language about Genetic IT
 
 ## Idea Notes
@@ -8,8 +9,8 @@ Esoteric Programming Language about Genetic IT
 In nature of Life,  
 Genetics are the base code.  
 
-In nearby allmost all circumstances,  
-the process of growing is detemined  
+In nearby almost all circumstances,  
+the process of growing is determined  
 in form of polymorphic recursions.
 
 Genes in Form of DNA or RNA  
@@ -27,15 +28,15 @@ Given pairings are therefore only
 * TA or AU
 
 So we have only two pairings and  
-four permutations for coding in Gentics IT
+four permutations for coding in Genetics IT
 
 So in respect to [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck),  
 this an even more reduced or abstract esoteric level.
 
-### Defnition of a minimum for information processing
+### Definition of a minimum for information processing
 
 + Technical approach
-  * Information or resource has to be adressed
+  * Information or resource has to be addressed
     * &lt;Get | Consume&gt; and &lt;Put | Set | Copy | Duplicate | Place&gt;
   * Information has to be evaluated
     * Compare A Equal B Branch
@@ -43,13 +44,13 @@ this an even more reduced or abstract esoteric level.
     * Flip Bit
   * Flow Directions for processing Information
     * Spin-L or Spin-R
-  
+
 So we seem to have a minimum  
-of 4 codeing elements.  
+of 4 coding elements.  
 But in genetics,  
 we only have a base  
 of two amino pairings for DNA and RNA,  
-if we constitute the flow direction (Spin) of processings.
+if we constitute the flow direction (Spin) of processing.
 
 Therefore the information Flip  
 has to be considered  
@@ -58,7 +59,7 @@ the Compare A Equal B Branching as obsolete.
 This leads to a set of 1 x 2 + 2 x 1 Operations.
 
 Further the definition of DNA and RNA,  
-has the differnces at  
+has the differences at  
 Thymin or Uracil pairing with Adenosin,  
 that defines 2 singleton cases and  
 one flow direction ("Spin-L|R") double case  
@@ -168,15 +169,16 @@ is from an technical information aspect driven.
       Subtract(A, B)
     Return A
 ```
+
 ### Considerations about Genetics with DNA and RNA
 
 #### Obsolete Conditional Branching
 
 So far I postulated,  
-that the equal camparison branching is obsolete.    
+that the equal comparison branching is obsolete.    
 This chapter is about to explain why I think so and  
 will highlight some further more aspects of these cases treaty.
- 
+
 If we would do compare branchings in genetics,  
 there would be a desirable need to cut of RNAs  
 if there is only a partially matching.  
@@ -190,18 +192,18 @@ that only fitting structures
 will workout right.
 
 This means that conditional branchings and  
-therefore comparings are obsolete.
+therefore comparing is obsolete.
 
-#### Usefull concepts for genetic codings
+#### Useful concepts for genetic codings
 
 As mentioned before,  
 there are only four permutations  
 with RNA Constructs from DNA Sequences.  
-A useabillity consideration therefore,  
+A useability consideration therefore,  
 is to say all four permutations  
 are doing something different.  
 
-The Aspect of "L|R - spinings"  
+The Aspect of "L|R - spinnings"  
 is driven by a technical information handling,  
 but as the nature of Life is not working like processor,  
 we should reconsider this case and  
@@ -216,23 +218,23 @@ So these spinnings,
 could alter the way of  
 consume and Place of Resources,  
 as well as they could mean that,  
-different kind of ressource  
-are ment to be used.  
+different kind of resources  
+are mented to be used.  
 
 #### Conceptions, theories and postulations
 
-So far use case Concepts are defined for DNA and RNA behaviour,  
-but these might not compellingly fit to the permutable pairings,  
-neither are they prooven.  
+So far use case Concepts are defined for DNA and RNA behavior,  
+but these might not compellingly fit to the confounded pairings,  
+neither are they proven.  
 
 So far we have a Definition of something,  
 what we could use for a short set of operations,  
-that are limited to the coding abillities of DNA and RNA.  
+that are limited to the coding abilities of DNA and RNA.  
 
 In this case,  
 DNA and RNA Constructs,  
-could be used for esoterical coding definitions,  
-as stated in tha past few Years,  
+could be used for esoteric coding definitions,  
+as stated in that past few Years,  
 for accumulating information in DNA or RNA.  
 
 #### The cells construction theorem
@@ -246,8 +248,8 @@ of various cell types and
 the richness of various cell interactions.
 
 Therefore we should reconsider,  
-how cell structures could be usefull defined and  
-builtup with only a set of 4 instructions.  
+how cell structures could be useful defined and  
+built up with only a set of 4 instructions.  
 
 First of all,  
 we can not determine various molecular structures,  
@@ -276,13 +278,13 @@ to the desired type of cell.
 Partial DNA sequences have to define RNA Sequences  
 that are going to construct partially dependent structures.
 
-This makes it very complexe to consider right,  
+This makes it very complex to consider right,  
 because the handling of activated and inactivated gene Sequences,  
 are not fully discovered nor really understood.  
 
 The conception is about altering the process  
 of releasing genetic sequences  
-for reproduction of necesary elements  
+for reproduction of necessary elements  
 at the right moment and  
 a well formed RNA string.  
 
@@ -291,11 +293,11 @@ So what kind of 4 instructions would we need therefore?
 1. We would need an sequence initiator and terminator instruction.  
 2. We would need something like an reproduction counter instruction,  
    that would terminate an expansive cell building up operation.
-3. We would need a molcular bonding construction.
+3. We would need a molecular bonding construction.
 4. We would need a spatially determined RNA String form,  
    that would fit the cell building process,  
    by sticking to itself at specific points.
-   
+
 The first topic is about to be something like Spin-L|R termination.
 
 The second and third topics should stick together,  
@@ -311,7 +313,7 @@ that would influence the cell structure.
 Therefore,  
 the next chapter is about to point out to references.
 
-#### Out pointings
+#### Out pointing
 
 As further suggestions are not the part of the Genetics IT,    
 they could be read at:  
@@ -323,7 +325,7 @@ they could be read at:
 
 ### Addendum
 
-This coding behaviour here has to be treated as  
+This coding behavior here has to be treated as  
 
-* technically having Touring abillities  
+* technically having Touring abilities  
 * inspired from biological handling of decoding Genes  
