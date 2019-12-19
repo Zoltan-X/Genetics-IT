@@ -33,10 +33,12 @@ Additionally for functional Programming:
 
 And finally:
 
-1. Information Addressing in Form of Duplicate A to B
-   * Get A is dup A to RegisterMemoryX
-   * Put A is dup A to RegisterMemoryX
-
+1. Information Addressing in Form of Duplicate A to B with   
+   A Immediate|Register|Memory and  
+   B Register|Memory
+   * Get A is dup A to B
+   * Put A is dup A to B
+   
 The abstraction and depending associations to Genetics therefore  
 are far more complex caused by several circumstances.
 
