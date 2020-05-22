@@ -89,7 +89,7 @@ is from an technical information aspect driven.
   #                   L-Spin or R-Spin 
   Definition Increment(Information(x), FlowDirection)
     if FlowDirection Equal L-Spin
-      if Inf(x) Equals 0
+      if Information(x) Equals 0
         Flip(Information(x))
         Flip(FlowDirection)
         Increment(Information(x), FlowDirection)
@@ -108,7 +108,7 @@ is from an technical information aspect driven.
   #                   L-Spin or R-Spin 
   Definition Decrement(Information(x), FlowDirection)
     if FlowDirection Equal L-Spin
-      if Inf(x) Equals 1
+      if Information(x) Equals 1
         Flip(Information(x))
         Flip(FlowDirection)
         Decrement(Information(x), FlowDirection)
