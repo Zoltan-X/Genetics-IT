@@ -172,12 +172,12 @@ is from an technical information aspect driven.
         Flip(Inf(A))
         Sum(Inf(A),Inf(B),R-Spin)
         
-    A = 0101 =>  5	 R-0001 L-1001 R-1001 R-1011
+    A = 0101 =>  5  R-0001 L-1001 R-1001 R-1011
     B = 0110 =>  6  R-0010 L-0010 R-0010 R-0000 
     Ret 1011 => 11
   	
     A = 0110 =>  6  R-0010 L-1010 R-1000 L-1100 R-1101
-    B = 0111 =>  7	 R-0011 L-0011 R-0001 L-0001 R-0000
+    B = 0111 =>  7  R-0011 L-0011 R-0001 L-0001 R-0000
     Ret 1101 => 13
   	
   # Lazy Definition
@@ -217,12 +217,12 @@ Definition Subtract(Inf(A), Inf(B), Spin)
       Flip(Inf(A))
       Subtract(Inf(A),Inf(B),R-Spin)
         
-    A = 1111 => 15 	R-1111 R-1011 R-1011 1010
+    A = 1111 => 15  R-1111 R-1011 R-1011 1010
     B = 0101 =>  5  R-0101 R-0001 R-0001 0000
     ret 1010 => 10
     
    	A = 1100 =>  12  R-1100 R-1100 R-1110 L-1010 R-1010 R-1011 L-1001
-    B = 0011 =>   3	 R-0011 R-0011 R-0001 L-0001 R-0001 R-0000 L-0000
+    B = 0011 =>   3  R-0011 R-0011 R-0001 L-0001 R-0001 R-0000 L-0000
     ret 1001 => 9
     
   # Lazy Definition
