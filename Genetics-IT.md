@@ -79,7 +79,7 @@ is from an technical information aspect driven.
 ### Minimum Information processing Examples with Conditions and Flips
 
 ```Genetics-IT
-  # Recursice definition of an incrementation process with 
+  # Recursive definition of an incrementation process with 
   # automatic abort of recursion if the processing flow  reached its Limit.
   # 
   # Information   =>  Limited Set of Bits,  
@@ -87,18 +87,37 @@ is from an technical information aspect driven.
   #                   x -> 1 as opposit Lim
   # FlowDirection =>  Sequential Information processing Flow Direction
   #                   L-Spin or R-Spin 
-  Definition Increment(Information(x), FlowDirection)
-    if FlowDirection Equal L-Spin
+  Definition Increment(Inf(X), FlowDirection)
+    if Xr equ 0 
+      return Rx
+    if Xl equ 0 
+      return Rx
+    if FlowDirection Equal R->L Spin
       if Information(x) Equals 0
         Flip(Information(x))
         Flip(FlowDirection)
-        Increment(Information(x), FlowDirection)
-    Flip(Information(x))
-    Increment(Information(x), FlowDirection)
+        continue
+    if FlowDirection Equal L->R Spin
+      Flip(Information(x))
+      continue
+    
+/*  
+Xr= 4  3 2 1  0    
+Xl= 0  1 2 3  4  
+----------------
+Rx => 0 = 0 0 0 
+      1 = 0 0 1  
+      2 = 0 1 0 
+      3 = 0 1 1 
+      4 = 1 0 0 
+      5 = 1 0 1 
+      6 = 1 1 0 
+      7 = 1 1 1 
+*/
 ```
 
 ```Genetics-IT
-  # Recursice definition of a decrementation process with 
+  # Recursive definition of a decrementation process with 
   # automatic abort of recursion if the processing flow  reached its Limit.
   # 
   # Information   =>  Limited Set of Bits,  
@@ -107,8 +126,8 @@ is from an technical information aspect driven.
   # FlowDirection =>  Sequential Information processing Flow Direction
   #                   L-Spin or R-Spin 
   Definition Decrement(Information(x), FlowDirection)
-    if FlowDirection Equal L-Spin
-      if Information(x) Equals 1
+    if FlowDirection Equal R->L Spin
+      if Information(x) Equal 1
         Flip(Information(x))
         Flip(FlowDirection)
         Decrement(Information(x), FlowDirection)
@@ -116,10 +135,8 @@ is from an technical information aspect driven.
     Decrement(Information(x), FlowDirection)
 ```
 
-
-
 ```Genetics-IT
-  # Recursice definition of a compare Lower process with 
+  # Recursive definition of a compare Lower process with 
   # automatic abort of recursion if the processing flow  reached its Limit.
   # 
   # A  =>  Comparand
@@ -127,15 +144,14 @@ is from an technical information aspect driven.
   Definition CompareLower(A, B)
     if B Equ 0
       Return 0
-    Decrement(B. L-Spin)
-    if A Equal B B
+    Decrement(B, L-Spin)
+    if A Equal B
       Return 1
     CompareLower(A,B)
 ```
 
 ```Genetics-IT
-  # Recursice definition of a compare Greater process with 
-  # automatic abort of recursion if the processing flow  reached its Limit.
+  # Definition of a compare Greater process with 
   # 
   # A  =>  Comparand
   # B  =>  Comparator
@@ -145,8 +161,7 @@ is from an technical information aspect driven.
 
 
 ```Genetics-IT
-  # Recursice definition of a summation process with 
-  # automatic abort of recursion if the processing flow reached its Limit.
+  # Definition of a summation process with 
   # 
   # Information   =>  Limited Set of Bits,  
   #                   Lim -> 1 as x and
@@ -155,43 +170,18 @@ is from an technical information aspect driven.
   #                   L-Spin or R-Spin 
   # A  =>  Summand
   # B  =>  Summand
-  Definition Sum(Inf(A), Inf(B), Spin=R-Spin)
-    if B equals 0
-      Return A
-    if Spin equals R-Spin  
-      if Inf(B) equals 1
-        if Inf(A) equals 0
-          Flip(Inf(A))
-          Flip(Inf(B))
-          if Inf(A) equals 0
-            Sum(Inf(A),Inf(B),L-Spin)
-          if Inf(A) equals 1
-            Sum(Inf(A),Inf(B),R-Spin)
-    if Spin equals L-Spin  
-      if Inf(A) equals 0
-        Flip(Inf(A))
-        Sum(Inf(A),Inf(B),R-Spin)
-        
-A = 0101 =>  5  R-0001 L-1001 R-1001 R-1011
-B = 0110 =>  6  R-0010 L-0010 R-0010 R-0000 
-Ret 1011 => 11
-  	
-A = 0110 =>  6  R-0010 L-1010 R-1000 L-1100 R-1101
-B = 0111 =>  7  R-0011 L-0011 R-0001 L-0001 R-0000
-Ret 1101 => 13
-  	
+  #
   # Lazy Definition
   Definition Sum(A, B)  	
     if CompareGreater(B,0)
       Increment(A)
       Decrement(B)
-      Sum(A, B)
-    Return A
-  
+    Return A if B EUQ 0
+    Continue
 ```
 
 ```Genetics-IT
-  # Recursice definition of a subtraction process with 
+  # Recursive definition of a subtraction process with 
   # automatic abort of recursion if the processing flow reached its Limit.
   # 
   # Information   =>  Limited Set of Bits,  
@@ -201,37 +191,13 @@ Ret 1101 => 13
   #                   L-Spin or R-Spin 
   # A  =>  Minuend
   # B  =>  Subtrahend
-Definition Subtract(Inf(A), Inf(B), Spin)
-  if Spin equals R-Spin  
-    if Inf(B) equals 1
-      if Inf(A) equals 1
-        Flip(Inf(A))
-        Flip(Inf(B))
-        Subtract(Inf(A),Inf(B),R-Spin
-      if Inf(A) equals 0
-        Flip(Inf(B))
-        Subtract(Inf(A),Inf(B),L-Spin)
-    if B equals 0
-      Return A
-  if Spin equals L-Spin  
-    Flip(Inf(A))
-    Subtract(Inf(A),Inf(B),R-Spin)
-        
-A = 1111 => 15  R-1111 R-1011 R-1011 1010
-B = 0101 =>  5  R-0101 R-0001 R-0001 0000
-ret 1010 => 10
-    
-A = 1100 =>  12  R-1100 R-1100 R-1110 L-1010 R-1010 R-1011 L-1001 R-1001
-B = 0011 =>   3  R-0011 R-0011 R-0001 L-0001 R-0001 R-0000 L-0000 R-0000
-ret 1001 => 9
-    
   # Lazy Definition
   Definition Subtract(A, B)
     if CompareGreater(B,0)
       Decrement(A)
       Decrement(B)
-      Subtract(A, B)
-    Return A
+    Return A if B EUQ 0
+    Continue
 ```
 
 ### Considerations about Genetics with DNA and RNA
