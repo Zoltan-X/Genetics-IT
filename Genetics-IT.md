@@ -25,7 +25,7 @@ There are four aminos called:
 Given pairings are therefore only
 
 * CG or GC
-* TA or AU
+* AT or AU
 
 So we have only two pairings and  
 four permutations for coding in Genetics IT
@@ -67,11 +67,10 @@ for Cytosin and Guanin permutation.
 
 This leads to the four possible coding sets:
 
-* CG  <=> GC
-  * CG (Spin-L) 
-  * GC (Spin-R)
-* AU (Consume or Get)
-* TA (Place or Put)
+* CG (Flip) 
+* GC (compare EQU)
+* AT (Spin-R)
+* AU (Spin-L)
 
 The definition above  
 is from an technical information aspect driven.  
@@ -87,19 +86,23 @@ is from an technical information aspect driven.
   #                   x -> 1 as opposit Lim
   # FlowDirection =>  Sequential Information processing Flow Direction
   #                   L-Spin or R-Spin 
-  Definition Increment(Inf(X), FlowDirection)
-    if Xr equ 0 
-      return Rx
-    if Xl equ 0 
-      return Rx
-    if FlowDirection Equal R->L Spin
-      if Information(x) Equals 0
-        Flip(Information(x))
-        Flip(FlowDirection)
-        continue
-    if FlowDirection Equal L->R Spin
-      Flip(Information(x))
-      continue
+  Definition Increment(Inf(X), FlowDirection, originalSpin = L<-R)
+    //If Register border reached
+    if Xr equ 0 return Rx                 
+    if Xl equ 0 return Rx
+    
+    //If originalSpin unchanged
+    if FlowDirection Equal originalSpin
+      if Information(x) Equals 0           // If actual Bit Zero
+        Flip(Information(x))               // flip it
+        Flip(FlowDirection)                // switch Flow-Direction
+      ENDIF
+      //recursive self-call  
+      Increment(Inf(X), FlowDirection, originalSpin)
+    ENDIF
+    Flip(Information(x))                 // flip bits on way back
+    // continue with next bit in Flow-Direction
+    Increment(Inf(X), FlowDirection, originalSpin) 
     
 /*  
 Xr= 4  3 2 1  0    
